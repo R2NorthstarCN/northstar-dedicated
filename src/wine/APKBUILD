@@ -107,8 +107,7 @@ build() {
 		--disable-wordpad --disable-write --disable-wscript --disable-wuauserv --disable-wusa --disable-xcopy --disable-acledit --disable-aclui \
 		--disable-adsldp --disable-adsldpc --disable-amsi --disable-amstream --disable-api_ms_win_appmodel_identity_l1_1_0 \
 		--disable-api_ms_win_appmodel_runtime_l1_1_0 --disable-api_ms_win_appmodel_runtime_l1_1_1 --disable-api_ms_win_appmodel_runtime_l1_1_2 \
-		--disable-api_ms_win_crt_conio_l1_1_0 --disable-api_ms_win_crt_multibyte_l1_1_0 --disable-api_ms_win_crt_private_l1_1_0 \
-		--disable-api_ms_win_crt_process_l1_1_0 --disable-api_ms_win_devices_config_l1_1_0 --disable-api_ms_win_devices_config_l1_1_1 \
+		--disable-api_ms_win_devices_config_l1_1_0 --disable-api_ms_win_devices_config_l1_1_1 \
 		--disable-api_ms_win_devices_query_l1_1_1 --disable-api_ms_win_downlevel_advapi32_l1_1_0 --disable-api_ms_win_downlevel_advapi32_l2_1_0 \
 		--disable-api_ms_win_downlevel_kernel32_l2_1_0 --disable-api_ms_win_downlevel_normaliz_l1_1_0 --disable-api_ms_win_downlevel_ole32_l1_1_0 \
 		--disable-api_ms_win_downlevel_shell32_l1_1_0 --disable-api_ms_win_downlevel_shlwapi_l1_1_0 --disable-api_ms_win_downlevel_shlwapi_l2_1_0 \
