@@ -122,9 +122,11 @@ func main() {
 			"sv_max_snapshots_multiplayer":        "300",
 			"net_data_block_enabled":              "0",
 			"host_skip_client_dll_crc":            "1",
+			"ns_player_auth_port":                 "8081",
 		},
 		map[string]string{
 			// only include commonly-used ones here
+			"ns_player_auth_port":                 "NS_PORT_AUTH",
 			"ns_server_name":                      "NS_SERVER_NAME",
 			"ns_server_desc":                      "NS_SERVER_DESC",
 			"ns_server_password":                  "NS_SERVER_PASSWORD",
@@ -148,9 +150,7 @@ func main() {
 		os.Exit(2)
 		return
 	}
-	if os.Getenv("NS_PORT_AUTH") != "" {
-		fmt.Fprintf(os.Stderr, "Note: NS_PORT_AUTH is no longer necessary since Northstar v1.13.\n")
-	}
+
 	fmt.Println()
 	nsc.Display(os.Stdout, "    ")
 	fmt.Println()
