@@ -1,24 +1,25 @@
-# Maintainer: pg9182 <96569817+pg9182@users.noreply.github.com>
 pkgname=northstar
-pkgver=1.28.2
+pkgver=1.17.3
 pkgver_tf=2.0.11.0
 pkgrel=0
-pkgdesc="Northstar binaries and mods"
+pkgdesc="NorthstarCN binaries and mods"
 
-url="https://northstar.tf"
+url="https://northstar.cool"
 license="MIT"
 
 arch="x86_64"
-source="https://github.com/R2Northstar/Northstar/releases/download/v${pkgver}/Northstar.release.v${pkgver}.zip"
+source="https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher_Dedicated/releases/download/v${pkgver}/v${pkgver}.zip"
 
 check() {
 	ls "$srcdir"
 	test -f "$srcdir/NorthstarLauncher.exe"
 	test -f "$srcdir/R2Northstar/mods/Northstar.CustomServers/mod/cfg/autoexec_ns_server.cfg"
+	test -f "$srcdir/R2Northstar/placeholder_playerdata.pdata"
 	test -d "$srcdir/R2Northstar/mods/Northstar.CustomServers/mod/maps/graphs"
 	test -d "$srcdir/R2Northstar/mods/Northstar.CustomServers/mod/maps/navmesh"
 	test -f "$srcdir/bin/x64_dedi/d3d11.dll"
 }
+
 
 package() {
 	rm "$srcdir"/*.zip
@@ -26,5 +27,5 @@ package() {
 	cp -r "$srcdir/." "$pkgdir/usr/lib/northstar/"
 }
 sha512sums="
-03ada60c5808af1e3f724a77089e554ef3794268d8fd026bac746369aeb4ef53e669ab9e2985357ae5eccc1ce2def3ef87d2070d27bfaea87f58fe635694be6e  Northstar.release.v$pkgver.zip
+beb313bc214010fc1bb6bb875bda1b7471d269e9ae78ef6effbb4beb9ae9d096e40d57fa197f0251914c0f3a79a25be8092dc74787197615b31ff7a0a45c0fdc  v$pkgver.zip
 "
