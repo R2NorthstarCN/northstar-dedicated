@@ -148,7 +148,7 @@ build() {
 		--disable-dinput8 --disable-directmanipulation --disable-dispex --disable-dmband --disable-dmcompos --disable-dmime --disable-dmloader \
 		--disable-dmscript --disable-dmstyle --disable-dmsynth --disable-dmusic --disable-dmusic32 --disable-dplay --disable-dplayx --disable-dpnaddr \
 		--disable-dpnet --disable-dpnhpast --disable-dpnhupnp --disable-dpnlobby --disable-dpvoice --disable-dpwsockx --disable-drmclien --disable-dsdmo \
-		--disable-dsquery --disable-dssenh --disable-dsuiext --disable-dswave --disable-dwmapi --disable-dwrite --disable-dx8vb --disable-dxdiagn \
+		--disable-dsquery --disable-dssenh --disable-dsuiext --disable-dswave --disable-dwrite --disable-dx8vb --disable-dxdiagn \
 		--disable-dxgi --disable-dxtrans --disable-dxva2 --disable-esent --disable-evr --disable-ext_ms_win_authz_context_l1_1_0 \
 		--disable-ext_ms_win_domainjoin_netjoin_l1_1_0 --disable-ext_ms_win_dwmapi_ext_l1_1_0 --disable-ext_ms_win_gdi_dc_create_l1_1_0 \
 		--disable-ext_ms_win_gdi_dc_create_l1_1_1 --disable-ext_ms_win_gdi_dc_l1_2_0 --disable-ext_ms_win_gdi_devcaps_l1_1_0 \
