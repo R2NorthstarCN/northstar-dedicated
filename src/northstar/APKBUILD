@@ -1,5 +1,5 @@
 pkgname=northstar
-pkgver=1.17.7
+pkgver=1.17.8
 pkgver_tf=2.0.11.0
 pkgrel=0
 pkgdesc="NorthstarCN binaries and mods"
@@ -26,5 +26,5 @@ package() {
 	cp -r "$srcdir/." "$pkgdir/usr/lib/northstar/"
 }
 sha512sums="
-a47de681b092ad8f52276d79245bf02fc8f67f613aa458119c306e6633b9d151743196c5a9a0214d66748483dce3305bb634ba0fcabd8d29df878c6b2ab94751  v$pkgver.zip
+c28a470e40b1a7f2f9c90cbe9b0318a2e235f54e93617bcb5a7eaab72be35e48dd557663eeb17e75c68a395271ee9383522f3163a130f4376cda9aaff3109f1a  v$pkgver.zip
 "
